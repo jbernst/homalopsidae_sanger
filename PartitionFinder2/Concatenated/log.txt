@@ -1,0 +1,97 @@
+INFO     | 2020-04-27 11:29:04,856 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-04-27 11:29:04,863 | config     | Setting 'alignment' to 'GB-SRLab_Homa_Cytb-PRLR_4-19-2020_ReducedOGs.phy'
+INFO     | 2020-04-27 11:29:04,865 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2020-04-27 11:29:04,866 | parser     | You set 'models' to: all
+INFO     | 2020-04-27 11:29:04,907 | model_load | This analysis will use the following 56 models of molecular evolution
+INFO     | 2020-04-27 11:29:04,909 | model_load | JC, K80, TRNEF, K81, TVMEF, TIMEF, SYM, F81, HKY, TRN, K81UF, TVM, TIM, GTR, JC+G, K80+G, TRNEF+G, K81+G, TVMEF+G, TIMEF+G, SYM+G, F81+G, HKY+G, TRN+G, K81UF+G, TVM+G, TIM+G, GTR+G, JC+I, K80+I, TRNEF+I, K81+I, TVMEF+I, TIMEF+I, SYM+I, F81+I, HKY+I, TRN+I, K81UF+I, TVM+I, TIM+I, GTR+I, JC+I+G, K80+I+G, TRNEF+I+G, K81+I+G, TVMEF+I+G, TIMEF+I+G, SYM+I+G, F81+I+G, HKY+I+G, TRN+I+G, K81UF+I+G, TVM+I+G, TIM+I+G, GTR+I+G
+INFO     | 2020-04-27 11:29:04,912 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-04-27 11:29:04,918 | config     | Setting 'search' to 'greedy'
+INFO     | 2020-04-27 11:29:04,920 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-04-27 11:29:04,922 | config     | Looking for alignment file './GB-SRLab_Homa_Cytb-PRLR_4-19-2020_ReducedOGs.phy'...
+INFO     | 2020-04-27 11:29:04,924 | threadpool | Using 8 cpus
+INFO     | 2020-04-27 11:29:04,925 | analysis   | Beginning Analysis
+INFO     | 2020-04-27 11:29:04,957 | alignment  | Reading alignment file './GB-SRLab_Homa_Cytb-PRLR_4-19-2020_ReducedOGs.phy'
+INFO     | 2020-04-27 11:29:04,997 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2020-04-27 11:29:04,999 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2020-04-27 11:29:05,002 | raxml      | Using a separate GTR+G model for each data block
+INFO     | 2020-04-27 11:30:14,225 | raxml      | Estimating GTR+G branch lengths on ML tree using all partitions
+INFO     | 2020-04-27 11:30:39,380 | raxml      | ML topology estimation finished
+INFO     | 2020-04-27 11:30:39,401 | analysis_m | Performing Greedy Analysis
+INFO     | 2020-04-27 11:30:39,402 | analysis_m |    *** Analysing starting scheme ***
+INFO     | 2020-04-27 11:36:34,427 | progress   |       Finished subset 1/6, 16.67 percent done
+INFO     | 2020-04-27 11:43:33,710 | progress   |       Finished subset 2/6, 33.33 percent done
+INFO     | 2020-04-27 11:48:43,771 | progress   |       Finished subset 3/6, 50.00 percent done
+INFO     | 2020-04-27 11:50:46,992 | progress   |       Finished subset 4/6, 66.67 percent done
+INFO     | 2020-04-27 11:52:16,973 | progress   |       Finished subset 5/6, 83.33 percent done
+INFO     | 2020-04-27 11:54:49,185 | progress   |       Finished subset 6/6, 100.00 percent done
+INFO     | 2020-04-27 11:54:49,212 | analysis_m |    ***Greedy algorithm step 1***
+INFO     | 2020-04-27 11:54:49,215 | analysis_m |       Analysing 15 new subset pairs
+INFO     | 2020-04-27 12:09:41,856 | progress   |       Finished subset 1/15, 6.67 percent done
+INFO     | 2020-04-27 12:19:58,261 | progress   |       Finished subset 2/15, 13.33 percent done
+INFO     | 2020-04-27 12:32:43,809 | progress   |       Finished subset 3/15, 20.00 percent done
+INFO     | 2020-04-27 12:43:13,482 | progress   |       Finished subset 4/15, 26.67 percent done
+INFO     | 2020-04-27 12:59:50,743 | progress   |       Finished subset 5/15, 33.33 percent done
+INFO     | 2020-04-27 13:07:20,483 | progress   |       Finished subset 6/15, 40.00 percent done
+INFO     | 2020-04-27 13:21:32,173 | progress   |       Finished subset 7/15, 46.67 percent done
+INFO     | 2020-04-27 15:41:27,582 | progress   |       Finished subset 8/15, 53.33 percent done
+INFO     | 2020-04-27 15:51:12,961 | progress   |       Finished subset 9/15, 60.00 percent done
+INFO     | 2020-04-27 15:55:41,749 | progress   |       Finished subset 10/15, 66.67 percent done
+INFO     | 2020-04-27 16:05:14,172 | progress   |       Finished subset 11/15, 73.33 percent done
+INFO     | 2020-04-27 16:12:05,651 | progress   |       Finished subset 12/15, 80.00 percent done
+INFO     | 2020-04-27 16:15:29,961 | progress   |       Finished subset 13/15, 86.67 percent done
+INFO     | 2020-04-27 16:18:47,152 | progress   |       Finished subset 14/15, 93.33 percent done
+INFO     | 2020-04-27 16:22:46,933 | progress   |       Finished subset 15/15, 100.00 percent done
+INFO     | 2020-04-27 16:22:46,940 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-04-27 16:22:46,955 | analysis_m |       Best scheme combines subsets: 'Gene2_pos3' and 'Gene1_pos3'
+INFO     | 2020-04-27 16:22:46,957 | analysis_m |       The best scheme improves the aicc score by 6458636.18 to 73346.6
+INFO     | 2020-04-27 16:22:46,984 | analysis_m |    ***Greedy algorithm step 2***
+INFO     | 2020-04-27 16:22:46,987 | analysis_m |       Analysing 4 new subset pairs
+INFO     | 2020-04-27 16:32:43,030 | progress   |       Finished subset 1/4, 25.00 percent done
+INFO     | 2020-04-27 16:43:15,175 | progress   |       Finished subset 2/4, 50.00 percent done
+INFO     | 2020-04-27 16:49:21,378 | progress   |       Finished subset 3/4, 75.00 percent done
+INFO     | 2020-04-27 16:55:55,491 | progress   |       Finished subset 4/4, 100.00 percent done
+INFO     | 2020-04-27 16:55:55,515 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-04-27 16:55:55,521 | analysis_m |       Best scheme combines subsets: 'Gene2_pos2' and 'Gene1_pos2'
+INFO     | 2020-04-27 16:55:55,523 | analysis_m |       The best scheme improves the aicc score by 26437.64 to 46909.0
+INFO     | 2020-04-27 16:55:55,554 | analysis_m |    ***Greedy algorithm step 3***
+INFO     | 2020-04-27 16:55:55,557 | analysis_m |       Analysing 3 new subset pairs
+INFO     | 2020-04-27 17:07:57,722 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2020-04-27 17:22:55,409 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2020-04-27 17:29:20,840 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2020-04-27 17:29:20,844 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-04-27 17:29:20,850 | analysis_m |       Best scheme combines subsets: 'Gene2_pos1' and 'Gene1_pos1'
+INFO     | 2020-04-27 17:29:20,851 | analysis_m |       The best scheme improves the aicc score by 4758.38 to 42222.0
+INFO     | 2020-04-27 17:29:20,883 | analysis_m |    ***Greedy algorithm step 4***
+INFO     | 2020-04-27 17:29:20,885 | analysis_m |       Analysing 2 new subset pairs
+INFO     | 2020-04-27 17:41:38,610 | progress   |       Finished subset 1/2, 50.00 percent done
+INFO     | 2020-04-27 17:57:06,816 | progress   |       Finished subset 2/2, 100.00 percent done
+INFO     | 2020-04-27 17:57:06,818 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-04-27 17:57:06,821 | analysis_m |       Best scheme combines subsets: 'Gene2_pos3, Gene1_pos3' and 'Gene2_pos2, Gene1_pos2'
+INFO     | 2020-04-27 17:57:06,822 | analysis_m |       The best scheme improves the aicc score by 1843.19 to 41198.9
+INFO     | 2020-04-27 17:57:06,843 | analysis_m |    ***Greedy algorithm step 5***
+INFO     | 2020-04-27 17:57:06,845 | analysis_m |       Analysing 1 new subset pairs
+INFO     | 2020-04-27 18:18:20,914 | progress   |       Finished subset 1/1, 100.00 percent done
+INFO     | 2020-04-27 18:18:20,917 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-04-27 18:18:20,922 | analysis_m |       Best scheme combines subsets: 'Gene2_pos1, Gene1_pos1' and 'Gene2_pos3, Gene1_pos3, Gene2_pos2, Gene1_pos2'
+INFO     | 2020-04-27 18:18:20,924 | analysis_m |       The best scheme improves the aicc score by 132.34 to 41066.6
+INFO     | 2020-04-27 18:18:20,947 | analysis_m |    Greedy algorithm finished after 6 steps
+INFO     | 2020-04-27 18:18:20,949 | analysis_m |    Best scoring scheme is scheme step_5, with aicc score of 41066.599
+INFO     | 2020-04-27 18:18:20,951 | model_util |    Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2020-04-27 18:18:20,977 | model_util |    
+INFO     | 2020-04-27 18:18:20,979 | model_util |    
+INFO     | 2020-04-27 18:18:20,981 | model_util |    *Citations for this analysis*
+INFO     | 2020-04-27 18:18:20,983 | model_util |    -----------------------------
+INFO     | 2020-04-27 18:18:20,984 | model_util |    
+INFO     | 2020-04-27 18:18:20,986 | model_util |    If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2020-04-27 18:18:20,989 | model_util |    
+INFO     | 2020-04-27 18:18:20,992 | model_util |    For the version of PartitionFinder you used, please cite:
+INFO     | 2020-04-27 18:18:20,993 | model_util |    Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2020-04-27 18:18:20,995 | model_util |    
+INFO     | 2020-04-27 18:18:20,997 | model_util |    For the greedy algorithm you used, please cite:
+INFO     | 2020-04-27 18:18:21,001 | model_util |    Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+INFO     | 2020-04-27 18:18:21,003 | model_util |    
+INFO     | 2020-04-27 18:18:21,005 | model_util |    Your analysis also used PhyML, so please cite:
+INFO     | 2020-04-27 18:18:21,006 | model_util |    Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+INFO     | 2020-04-27 18:18:21,008 | model_util |    
+INFO     | 2020-04-27 18:18:21,044 | main       | Total processing time: 6:49:17 (h:m:s)
+INFO     | 2020-04-27 18:18:21,046 | main       | Processing complete.
