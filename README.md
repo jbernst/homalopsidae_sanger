@@ -1,6 +1,19 @@
 # Multilocus Phylogenetic Investigation of Homalopsidae
 Data and scripts for multilocus phylogeny of Mud Snakes (Homalopsidae). 
 
+# Phylogenetic Analyses
+* RaxML and MyBayes were run using the [CIPRES Portal](https://www.phylo.org/). DNA alignment files for cyt-b, PRLR, and concatenated data can be found at:
+  >[https://github.com/jbernst/homalopsidae_sanger/tree/main/dna.alignments](https://github.com/jbernst/homalopsidae_sanger/tree/main/dna.alignments)
+* [PartitionFinder2](https://academic.oup.com/mbe/article/34/3/772/2738784) was used to find the best partitioning schemes. The code can be found at:
+  >[https://github.com/jbernst/homalopsidae_sanger/tree/main/PartitionFinder2](https://github.com/jbernst/homalopsidae_sanger/tree/main/PartitionFinder2)
+* Maximum Likelihood and Bayesian Inference trees were compared using the R package [cophylo](https://rdrr.io/cran/phytools/man/cophylo.html). Code can be found at:
+  >[https://github.com/jbernst/homalopsidae_sanger/tree/main/cophylo](https://github.com/jbernst/homalopsidae_sanger/tree/main/cophylo)
+
+
+# Species Delimitation
+* Species delimitation was performed using a multi-rate Poisson tree process (mPTP) from [Kapli et al. 2017](https://academic.oup.com/bioinformatics/article/33/11/1630/2929345). The code can be found at:
+  >[https://github.com/jbernst/homalopsidae_sanger/tree/main/mPTP](https://github.com/jbernst/homalopsidae_sanger/tree/main/mPTP)
+  
 ## Source Publication
 From Bernstein, J. M., Murphy, J. C., Voris, H. K., Brown, R. M., Ruane, S. 2021. Phylogenetics of Mud Snakes (Squamata: Serpentes: 
 Homalopsidae): A Paradox of Both Undescribed Diversity and Taxonomic Inflation. Molecular Phylogenetics and Evolution 160: 107109.
